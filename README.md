@@ -52,6 +52,21 @@ mpv reads configuration from:
 
 See the [man page](https://mpv.io/manual/master/) for a full list of options.
 
+### My Personal Config Snippet
+
+A few options I always set in `mpv.conf` for my own use:
+
+```ini
+# Save playback position on quit and resume automatically
+save-position-on-quit=yes
+
+# Use a slightly larger OSC by default
+script-opts=osc-scalewindowed=1.5
+
+# Default subtitle language preference
+slang=en,eng
+```
+
 ## Reporting Issues
 
 Before opening an issue, please:
